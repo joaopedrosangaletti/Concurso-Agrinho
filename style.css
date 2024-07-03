@@ -2,7 +2,7 @@
 :root {
     --cor-de-fundo:#14f304;
     --vinho:#316507;
-    --preto:#3aac2d;
+    --branco:#3aac2d;
     --botao-ativo:#8bec41;
     --botao-inativo: rgba(239, 172, 205, 0.205);
     --texto-fundo: rgba(4, 195, 229, 0.5);
@@ -10,7 +10,7 @@
 
 .titulo-principal{
 background-color: var(--cor-de-fundo);
-  color: var(--preto);
+  color: var(--branco);
   font-family: 'Chakra Petch', Sans-Serif;
 
 }
