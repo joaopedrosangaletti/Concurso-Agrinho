@@ -1,192 +1,58 @@
-th: 100%;
-    font-size: 32px;
-}
-.titulo-principal span{
-    color: var(--verde);
-}
-.botao{
-    font-family: 'Chakra Petch', sans-serif ;
-    b@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital@0;1&display=swap');
-
-:root{
-    --branco:white;
-    --cor-de-fundo:#00162E;
-    --fundo-senha:#00244D;
-    --fundo-texto:#001E40;
-    --borda:#0075FF;
-    --roboto: "Roboto", sans-serif;
-    --roboto-mono: "Roboto Mono", monospace;
-
-}
-
-*{
-    font-weight: 400;
-}
-body{
-
-
-color: var(--branco);
-background-color: var(--cor-de-fundo);
-font-family: var(--roboto);
-
-}
-
-.titulo-pricipal{
-    font-family: var(--roboto-mono);
-    font-size: 32px;
-}
-
-.titulo-secundario{
-    font-size: 24px;
-}
-.conteudo-senha{
-    width: 70%;
-    margin-top: 80px;
-    background: var(--fundo-senha);
-    padding: 24px;
-    border-bottom: 6px solid var(--borda);
-    
-}
-#campo-senha{
-    background-color: var(--fundo-senha);
-    border: none;
-    color: var(--branco);
-    font-family: var(--roboto-mono);
-    font-size: 40px;
-}
-#campo-senha:focus{
-    outline: none;
-}
-.couteudo{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.parametro{
-    background-color: var(--cor-de-fundo);
-    border: 2px solid var(--borda);
-    margin-top: 32px;
-}
-.parametro-titulo{
-    font-family: var(--roboto-mono);
-    font-size: 28px;
-    padding: 24px;
-
-}
-.parametro-senha__titulscreeno{
-    font-size: 24px;
-}
-.parametro-senha__coluna{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-@media screen and (min-width: 768px) {
-    .parametro-senha__coluna{
-        flex-direction: row;
-    }
-    
-}
-.parametro-senha{
-    width: 50%;
-    margin: 0 auto;
-
-}}
-.ativo{
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
-}
-
-.aba-conteudo.ativo{
-    display: block;
-}
-.aba-conteudo{
-    display: none;
-}
-
-.aba-conteudo-texto-principal{
-font-size: 28px;
-text-align:center;
-
-}
-.aba-conteudo-texto-secundario{
-    text-align: center;
-    color: var(--verde);
-    text-transform: uppercase;
-}
-.contador{
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
-}
-.contador-digito{
-    padding: 0 16px;
-    text-align: center;
-    min-width: 100px;
-}
-.contador-digito-numero{
-    font-size: 80px;
-    margin: 0;
-}
-.contador-digito-titulo{
-    color: var(--verde);
-    font-size: 20px;
-    margin: 0;
-}
-
-
-
-
-@media screen and (min-width: 750px){
-    .botoes{ 
-        display: flex;
-    }
-    .botao:first-child{
-        border-radius:40px 0 0 0;
-    }
-    .botao:last-child{
-        border-radius: 0 40px 0 0;
-    }
-}@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 :root {
-    --cor-de-fundo:#1e1e1e;
-    --verde:#6fff5f;
-    --branco:#ffffff;
-    --botao-ativo:#3a375e;
-    --botao-inativo: rgba(58,55,94,0.5);
-    --texto-fundo: rgba(58,55,94,0.3);
+    --cor-de-fundo:#14f304;
+    --vinho:#316507;
+    --preto:#3aac2d;
+    --botao-ativo:#8bec41;
+    --botao-inativo: rgba(239, 172, 205, 0.205);
+    --texto-fundo: rgba(4, 195, 229, 0.5);
 }
-body{
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Chakra Petch', Sans-Serif;
+
+.titulo-principal{
+background-color: var(--cor-de-fundo);
+  color: var(--preto);
+  font-family: 'Chakra Petch', Sans-Serif;
+
 }
 .conteudo-principal{
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1998px;
+  width: 100%;
+  margin: 1 auto;
 }
 .titulo-principal{
-    text-align: left;
-    widackground-color: var(--botao-inativo);
-    color: var(--branco);
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    font-size: 18px;
-    align-items: center;
-    width: 100%;
-    border-bottom: 4px solid var(--botao-ativo);
-    border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(--botao-ativo);
-    border-top: none;
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}
+.titulo-principal span{
+  color: var(--preto);
+}
+.botao{
+  font-family: 'Chakra Petch', sans-serif ;
+  background-color: var(--botao-inativo);
+  color: var(--branco);
+  display: inline-block;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 4px solid var(--botao-ativo);
+  border-left: 2px solid var(--botao-ativo);
+  border-right: 2px solid var(--botao-ativo);
+  border-top: none;
 }
 .botao:first-child{
-    border-radius: 40px 40px 0 0;
+  border-radius: 40px 40px 0 0;
+}
+.botoes.ativo{
+  display: block;
+}
+.ativo{
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--preto);
 }
