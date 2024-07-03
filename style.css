@@ -7,15 +7,35 @@
     --botao-inativo: rgba(239, 172, 205, 0.205);
     --texto-fundo: rgba(4, 195, 229, 0.5);
 }
+header{
+display: grid;
+background-color: rgb(243, 169, 78);
 
+
+}
 .titulo-principal{
 background-color: var(--cor-de-fundo);
   color: var(--branco);
   font-family: 'Chakra Petch', Sans-Serif;
 
 }
+.cabecalho{
+display: inline-flex;
+font-size: 12px;
+justify-content: space-around;
+
+
+}
+.cabecalho-titulo{
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+.cabecalho-imagem{
+  width: 30%;
+}
 .conteudo-principal{
-  display:flex;
+  display:inline;
   flex-direction:column;
   justify-content: center;
   align-items: center;
